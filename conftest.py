@@ -8,6 +8,8 @@ def browser_settings():
     browser.open('https://demoqa.com/automation-practice-form')
     browser.driver.maximize_window()
     browser.config.timeout = 6.0
+    yield
+    browser.quit()
 
 
 
