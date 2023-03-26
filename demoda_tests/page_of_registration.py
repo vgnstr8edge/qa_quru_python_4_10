@@ -1,4 +1,4 @@
-from selene import be, have, command
+from selene import have, command
 from selene.support.shared import browser
 import os
 from demoda_tests.users.user import User
